@@ -34,6 +34,7 @@ function compare (a, b) {
 
 compare("mary", "arms");
 
+//Outro método de se fazer 
 function anagrama(a, b){
 	x= a.split("").sort().join("");
 	y= b.split("").sort().join("");
@@ -54,17 +55,3 @@ function anagrama(a, b){
 }
 
 anagrama("AABA","BAAA");
-
-function numMaior(a, b){
-
-for (var i = 0; i < b.length; i++) {
-	if(a[i]>b[i]){
-		return a[i];
-	}else{
-		return b[i];
-	}
-}
-
-}
-
-numMaior('3,2,5,9','12,1,1,1');
